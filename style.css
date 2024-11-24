@@ -1,0 +1,348 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.hero-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.hero-section .btn {
+    margin: 5px;
+}
+.image-placeholder {
+    width: 100%;
+    height: 400px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.image-placeholder img {
+    width: 100px;
+    height: 100px;
+}
+.content-section {
+    padding: 50px 0;
+}
+.content-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.content-section p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+.content-section .btn {
+    margin: 5px;
+}
+.features-section {
+    text-align: center;
+    padding: 50px 0;
+}
+.features-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.feature-item {
+    padding: 20px;
+}
+.feature-item h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.feature-item p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: black;
+    color: white;
+}
+.testimonial {
+    font-size: 14px;
+}
+.testimonial .fa-star {
+    color: gold;
+}
+.footers {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team-member img {
+    width: 100%;
+    height: auto;
+}
+.team-member h5 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.team-member p {
+    font-size: 14px;
+    color: #666;
+}
+.social-icons i {
+    margin: 0 5px;
+    color: #666;
+}
+.contact-section {
+    margin-top: 50px;
+}
+.contact-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-section p {
+    font-size: 14px;
+    color: #666;
+}
+.contact-section .form-control {
+    margin-bottom: 15px;
+}
+.contact-section .btn {
+    background-color: #000;
+    color: #fff;
+}
+.map {
+    background-color: #e9ecef;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.footer {
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+}
+.footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+.footer .social-icons i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.footer .social-icons a {
+    color: #000;
+    text-decoration: none;
+}
+.footer .social-icons a:hover {
+    color: #007bff;
+}
+.footer .subscribe input[type="email"] {
+    border: 1px solid #000;
+    padding: 5px;
+    width: 200px;
+}
+.footer .subscribe button {
+    border: 1px solid #000;
+    padding: 5px 10px;
+}
+.footer .bottom-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer .bottom-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer .bottom-links a:hover {
+    text-decoration: underline;
+}
+.decor{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Floating Button */
+#chatbot-btn {
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 1000;
+animation: fadeIn 0.8s ease-in-out;
+}
+
+#chatbot-btn button {
+background: linear-gradient(135deg, #4caf50, #81c784);
+color: white;
+font-size: 16px;
+font-weight: bold;
+border: none;
+border-radius: 50px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#chatbot-btn button:hover {
+background: linear-gradient(135deg, #388e3c, #66bb6a);
+box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Chat Sidebar */
+.chat-sidebar {
+position: fixed;
+bottom: 20px;
+right: -400px; /* Hidden by default */
+width: 400px;
+/* height: 100vh; */
+background: linear-gradient(135deg, #ffffff, #f5f5f5);
+border-left: 3px solid #007bff;
+box-shadow: -4px 0px 8px rgba(0, 0, 0, 0.2);
+transition: right 0.4s ease-in-out;
+z-index: 1001;
+display: flex;
+flex-direction: column;
+border-radius: 10px 0 0 10px;
+overflow: hidden;
+}
+
+/* Header */
+.chat-header {
+background: linear-gradient(135deg, #007bff, #0056b3);
+color: white;
+padding: 15px;
+font-size: 18px;
+font-weight: bold;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.chat-header h5 {
+margin: 0;
+}
+
+.chat-header .btn-close {
+color: #007bff;
+font-weight: bold;
+border: none;
+border-radius: 50%;
+font-size: 16px;
+width: 25px;
+height: 25px;
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.chat-header .btn-close:hover {
+background: #f5f5f5;
+}
+
+/* Chat Body */
+.chat-body {
+flex-grow: 1;
+padding: 15px;
+overflow-y: auto;
+background-color: #fafafa;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+font-family: 'Arial', sans-serif;
+}
+
+.chat-body div {
+margin-bottom: 10px;
+}
+
+.chat-body .text-end {
+text-align: right;
+color: #333;
+font-weight: bold;
+}
+
+.chat-body .text-start {
+text-align: left;
+color: #007bff;
+font-weight: bold;
+}
+
+/* Footer */
+.chat-footer {
+padding: 15px;
+border-top: 1px solid #ddd;
+background-color: #f5f5f5;
+}
+
+.chat-footer textarea {
+border-radius: 10px;
+border: 1px solid #ccc;
+padding: 10px;
+resize: none;
+font-size: 14px;
+}
+
+.chat-footer textarea:focus {
+outline: none;
+border: 1px solid #007bff;
+box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+.chat-footer button {
+background: linear-gradient(135deg, #007bff, #0056b3);
+color: white;
+font-weight: bold;
+font-size: 16px;
+width: 100%;
+margin-top: 10px;
+padding: 10px;
+border: none;
+border-radius: 10px;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.chat-footer button:hover {
+background: linear-gradient(135deg, #0056b3, #003f7f);
+}
+
+/* Show Sidebar */
+.chat-sidebar.show {
+right: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+from {
+opacity: 0;
+transform: translateY(20px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
